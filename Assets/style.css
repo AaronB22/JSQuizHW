@@ -1,0 +1,296 @@
+
+body {
+    background-color:whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.topbar{
+background-color:gray;
+
+position: relative;
+padding: none;
+border: none;
+margin: none;
+height: 200px;
+}
+
+.score{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 50px;
+bottom: 50px;
+}
+.home{
+    position: relative;
+font-size: 30px;
+left: 20px;
+bottom: 20px;
+border-radius: 25%;
+}
+.Lside{
+background-color: darkblue;
+position:absolute;
+width: 10%;
+margin-left: 0px;
+left: 0px;
+opacity: 90%;
+}
+.Rside{
+    background-color:darkblue;
+    position:absolute;
+    width: 10%;
+    margin-right: auto;
+    right:0px;
+    opacity: 90%;
+    }
+    
+
+
+.dark-theme{
+    background-color:rgb(29, 27, 27);
+    color: white;
+}
+
+.dark-mode{
+    color:white;
+    background-color: black;
+    position: absolute;
+    right:10px;
+    font-size: 30px;
+    top: 10px;
+    border-radius:25px;
+}
+.opener {
+    position: relative;
+    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    display: block;
+}
+
+.opener-textbox{
+    text-align: center;
+    font-size: 80px;
+    background-color: gray;
+   
+    border:5px solid darkblue ;
+    
+    
+}
+
+.start{
+    font-size: 40px;
+    width: 230px;
+    position: relative;
+    right: 0%;
+    top:0px;
+    background-color:lightblue;
+    border: 5px solid grey
+}
+
+.show-highscore{
+    position: absolute;
+    font-size:40px;
+    width:230px;
+    right:0px;
+    margin-right: auto;
+    bottom: 0px;
+    background-color: lightblue;
+    border: 5px solid grey
+}
+
+.info {
+font-size: 50px;
+margin-right: auto;
+margin-left: auto;
+width:60%;
+position: relative;
+top: 280px;
+text-align: center;
+border: 5px solid darkblue;
+background-color:grey;
+}
+
+.question{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: none;
+    
+}
+
+.question-box{
+    text-align: center;
+    font-size: 80px;
+    border: 5px solid blue;
+    background-color:rgb(80, 80,80);
+}
+.answer{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150%; 
+    justify-content: space-around;
+    width:max-content;
+}
+
+
+.a1{
+    font-size: 50px;
+    position: relative;
+    width: 250px;
+}
+.a2{
+    font-size: 50px;
+    width: 250px;
+    position: relative;
+}
+.a3{
+    font-size: 50px;
+    position: relative;
+    width: 250px;
+    
+}
+.a0{
+    position: relative;
+    font-size: 50px;
+    width: 250px;
+}
+.endScreen{
+    display: none;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.endText{
+    text-align: center;
+    font-size: 70px;
+}
+.endInputButton{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 8rem;
+   
+}
+
+.userInput{
+    width: 200px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid blue 
+}
+.subIt{
+    
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+}
+
+.highscorePage{
+    display: none;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+   
+}
+
+.highscoreTitle{
+    
+    color:rebeccapurple;
+    font-size: 80px;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.scoreList{
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timer{
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100px;
+    display: none;
+}
+
+@media screen and (min-width:1700px){
+    .opener-textbox{
+        font-size: 100px;
+    }
+   .start{
+       
+       width: 350px;
+       height: 95px;
+   }
+   .show-highscore{
+       
+      
+       width: 350px;
+       height: 95px;;
+   }
+}
+@media screen and (max-width:1600px){
+    .answer{
+       width: 300px;
+      
+    
+    }
+
+}
+@media screen and (max-width:1310px){
+    .endText{
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .opener{
+        width:70%
+    }
+    .answer{
+        width: 430px;
+        
+     }
+     
+}
+
+@media screen and (max-width:800px){
+    .opener{
+        width: 80%;
+    }
+    .Rside{
+        display: none;
+    }
+    .Lside{
+        display: none;
+    }
+    .answer{
+        width:400px ;
+        margin-top: 0;
+        height: 200px;
+    }
+    .question{
+        font-size: 200px;
+        width: 80%;
+    }
+    .timer{
+        position: absolute;
+        top:150px;
+        font-size: 45px;
+    }
+}
